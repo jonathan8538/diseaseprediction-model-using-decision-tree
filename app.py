@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 # Load preprocessed dataset
 @st.cache_data
 def load_data():
-    file_path = r'Data\cleaned_data.csv'
+    file_path = 'Data/cleaned_data.csv'
     df = pd.read_csv(
         file_path,
         encoding='latin1',
